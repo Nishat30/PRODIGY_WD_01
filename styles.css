@@ -1,0 +1,93 @@
+.navbar-custom {
+    background-color: #18020C;
+  }
+body{
+    padding-top: 56px; 
+}
+  .cont {
+    background: wheat;
+    height: 40px;
+    text-align: center;
+    gap: 90px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cont a {
+    color: black;
+    text-decoration: none;
+  }
+  .image_call {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+  }
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  .about{
+    width: 100%; /* Full width */
+    text-align: center; /* Center text horizontally */
+    padding-top: 10px; /* Add padding for spacing */
+    background: wheat; 
+    height: 200px;
+  }
+  .gg{
+    font-weight: bold;
+    font-size: 1.5em;;
+  }
+  .txt{
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 1.2em;
+  }
+  .card_color{
+    background: wheat;
+    height: 2100px;
+  }
+  .card_space{
+    display: flex;
+    gap: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: center;
+  }
+.card_size{
+    width: 370px;
+    height: 250px;
+}
+.alignment{
+    text-align: center;
+    justify-content: center;
+}
+footer{
+    background-color: #18020C;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+}
+  
+main {
+    flex: 1;
+}
+.footer-container {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px; /* Adjust padding if necessary */
+    color: antiquewhite;
+    text-align: center;
+}
